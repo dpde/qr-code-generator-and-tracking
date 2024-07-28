@@ -24,3 +24,4 @@ Go to [http://localhost/admin/login](http://localhost/admin/login) and use the d
 User: test@example.com
 Pass: password
 ```
+![Filament Admin Panel Login]("./documentation/login.png")
