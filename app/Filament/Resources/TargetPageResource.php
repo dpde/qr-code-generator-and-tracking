@@ -43,6 +43,10 @@ class TargetPageResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('url')->sortable()->searchable(),
+                Tables\Columns\TextColumn::make('visitor_trackings_count')
+                    ->label('Tracking Count')
+                    ->counts('visitorTrackings')
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')->dateTime(),
                 Tables\Columns\TextColumn::make('updated_at')->dateTime(),
             ])
