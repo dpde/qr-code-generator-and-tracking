@@ -14,7 +14,7 @@ Run:
 - `cp .env.example .env`
 - `sail up -d`
 - `sail artisan key:generate`
-- `sail artisan migrate --seed`
+- `sail artisan migrate:fresh --seed`
 
 ## Open Filament Admin Panel
 
