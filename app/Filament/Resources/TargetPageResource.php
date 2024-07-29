@@ -34,7 +34,7 @@ class TargetPageResource extends Resource
                     ->disabled()
                     ->asSlideOver()
                     ->optionsColumn('options')
-                    ->actionIcon('heroicon-s-building-library'),
+                    ->actionIcon('heroicon-s-qr-code'),
             ]);
     }
 
